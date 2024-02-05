@@ -62,3 +62,5 @@ Here we have a producer, producing messages to a topic and this topic has 3 part
 So, we have 2 producers, Producer A and Producer B. Producer A produces partition1 and partition2, and Producer B which is producing partition3
 
 Then we can see that we have one consumer for each partition. So this is the best-case scenario where you have total palladium in processing those messages
+
+![image](https://github.com/luiscoco/Kafka_architecture/assets/32194879/bae996c6-0a63-4a92-a5cb-2e6a3e2bdf41)
