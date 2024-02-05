@@ -1,5 +1,7 @@
 # Apache Kafka architecture
 
+https://developer.confluent.io/courses/apache-kafka-for-dotnet/overview/
+
 ## 1. Why Apache Kafka?
 
 Apache Kafka is capable of handling millions of data or messages per second
