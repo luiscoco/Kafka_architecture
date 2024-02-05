@@ -18,7 +18,7 @@ Apache Kafka is super reliable, like a sturdy bridge that never breaks
 
 Organizations like, Netflix, Uber, Walmart, and many more make use of Apache Kafka
 
-## 2. Kafka Terminologies: 
+## 2. Kafka Terminologies
 
 **Producer**: A producer can be any application that can publish a message on a topic. 
 
@@ -32,10 +32,33 @@ Organizations like, Netflix, Uber, Walmart, and many more make use of Apache Kaf
 
 **Zookeeper**: Zookeeper is used for managing and coordinating Kafka broker.
 
-## 3. Kafka Cluster:  
+## 3. Kafka Cluster
 
 Here, we can see multiple Producer produces data to Kafka broker and those Kafka broker reside inside a Kafka cluster
 
 Again we have multiple consumers, consuming the data from the kafka broker and this kafka broker is managed by the zookeeper
 
 ![image](https://github.com/luiscoco/Kafka_architecture/assets/32194879/24162f13-340d-4f7c-a312-61b5820df574)
+
+## 4. Kafka Features  
+
+**High Throughput**: Provides support for hundreds of thousands of messages with modest hardware 
+
+**Scalability**: Highly scalable distributed systems with no downtime
+
+**Data Loss**: Kafka ensures no data loss once configured properly
+
+**Stream Processing**: Kafka can be used along with real-time streaming applications like Spark and Strom
+
+**Durability**: Provides support to persisting messages on disk. 
+
+**Replication**: Messages can be replicated across clusters, which supports multiple subscribers
+
+
+## 5. Apache Kafka Architecture
+
+Here we have a producer, producing messages to a topic and this topic has 3 partitions. Now there are 3 consumers who are consuming from these partitions 
+
+So, we have 2 producers, Producer A and Producer B. Producer A produces partition1 and partition2, and Producer B which is producing partition3
+
+Then we can see that we have one consumer for each partition. So this is the best-case scenario where you have total palladium in processing those messages
