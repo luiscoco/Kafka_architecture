@@ -2,6 +2,8 @@
 
 https://developer.confluent.io/courses/apache-kafka-for-dotnet/overview/
 
+https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot/
+
 ![image](https://github.com/luiscoco/Kafka_architecture/assets/32194879/52e8e823-b675-46cd-8f51-73687adfc93e)
 
 ## 1. Why Apache Kafka?
